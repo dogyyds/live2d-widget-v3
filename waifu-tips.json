@@ -74,6 +74,14 @@
       ]
     },
     {
+      "selector": ".article-more",
+      "text": ["点击来阅读全文哦。", "你要看这篇文章吗？", "笨蛋，要看快点看了"]
+    },
+    {
+      "selector": ".twikoo-new-content",
+      "text": ["新的评论耶", "笨蛋，你也去评论"]
+    },
+    {
       "selector": ".menu .item a[href='/']",
       "text": [
         "点击前往首页，想回到上一页可以使用浏览器的后退功能哦。",
@@ -198,7 +206,7 @@
       "text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
     },
     {
-      "selector": ".container a[href^='http'], .nav-link .nav-text",
+      "selector": ".container a[href^='http'], .navbar-item",
       "text": [
         "要去看看 <span>{text}</span> 么？",
         "去 <span>{text}</span> 逛逛吧。",
@@ -206,7 +214,15 @@
       ]
     },
     {
-      "selector": ".back-to-top",
+      "selector": "article .title a",
+      "text": ["要看看 <span>{text}</span> 这篇文章吗？"]
+    },
+    {
+      "selector": "#night-nav",
+      "text": ["现在就要关灯了吗？", "要注意保护眼睛哦"]
+    },
+    {
+      "selector": "#back-to-top",
       "text": [
         "点它就可以回到顶部啦！",
         "又回到最初的起点～",
@@ -214,7 +230,7 @@
       ]
     },
     {
-      "selector": ".reward",
+      "selector": ".donate",
       "text": [
         "我是不是棒棒哒～快给我点赞吧！",
         "要打赏我嘛？好期待啊～",
@@ -324,18 +340,19 @@
       "text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
     },
     {
-      "selector": ".vpreview-btn",
+      "selector": ".tk-preview",
       "text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
     },
+
     {
-      "selector": "#comments > div > div.wl-comment > div > div.wl-footer > div.wl-info > button.primary.wl-btn",
+      "selector": ".tk-send",
       "text": [
         "评论没有审核，要对自己的发言负责哦～",
         "要提交了吗，请耐心等待回复哦～"
       ]
     },
     {
-      "selector": ".vcontent",
+      "selector": ".tk-content",
       "text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
     }
   ],
@@ -354,12 +371,12 @@
       ]
     },
     {
-      "selector": ".veditor",
+      "selector": ".tk-input",
       "text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
     },
     {
-      "selector": ".vsubmit",
-      "text": ["输入验证码就可以提交评论啦～"]
+      "selector": ".tk-send",
+      "text": ["提交评论啦～"]
     }
   ],
   "seasons": [
@@ -427,7 +444,7 @@
     },
     {
       "hour": "14-17",
-      "text": "午后很容易犯困呢，今天的运动目标完成了吗？"
+      "text": "午后很容易犯困呢(´-ω-`*)，今天的运动目标完成了吗？"
     },
     {
       "hour": "18-19",
