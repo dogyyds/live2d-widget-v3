@@ -1,5 +1,11 @@
 > ### fork 自 [letere-gzj/live2d-widget-v3](https://github.com/letere-gzj/live2d-widget-v3) 项目：
 
+jsdelivr cdn:
+
+```
+https://fastly.jsdelivr.net/gh/dogyyds/live2d-widget-v3@main/
+```
+
 # <center> Live2d-Widget-v3 </center>
 
 ---
