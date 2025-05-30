@@ -343,13 +343,16 @@
       "selector": ".tk-preview",
       "text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
     },
-
     {
       "selector": ".tk-send",
       "text": [
         "评论没有审核，要对自己的发言负责哦～",
         "要提交了吗，请耐心等待回复哦～"
       ]
+    },
+    {
+      "selector": ".__markdown",
+      "text": "你要去看下怎么写 <span>markdown</span> 吗"
     },
     {
       "selector": ".tk-content",
